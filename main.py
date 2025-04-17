@@ -27,16 +27,16 @@ def simplify(char):
 new_character_list = map(simplify, data['results'])
 # #print the flitered list
 # for char in new_character_list:
-#     print(char)
+#      print(char['name'])
 
 #create csv file
-with open('character.csv', 'w', newline='') as csvfile:
-    fieldnames = ['id', 'name', 'status', 'species', 'origin.name', 'location.name']
-    writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
 
-    writer.writeheader()
-    for row in new_character_list:
-        writer.writerow(row)
+character_csv = open('character.csv','w')
+character_csv.writelines('id,name,status,species,origin.name,location.name\n')
+for row in new_character_list:
+     character_csv.writelines(str(row["id"]) +"," + row['name']+"," +row['status']+"," +row['species'] + ","+row['origin.name'] +","+ row['location.name']+"\n")
+    
+character_csv.close()
 
 
 

@@ -1,5 +1,6 @@
 
 import requests
+import csv
 
 
 # fetch from API URL 
@@ -24,9 +25,18 @@ def simplify(char):
 #simplify the original data list into fewer key/value pairs with 'map'
 # apply the function simplify to every item in the list data['results']
 new_character_list = map(simplify, data['results'])
-#print the flitered list
-for char in new_character_list:
-    print(char)
+# #print the flitered list
+# for char in new_character_list:
+#     print(char)
+
+#create csv file
+with open('character.csv', 'w', newline='') as csvfile:
+    fieldnames = ['id', 'name', 'status', 'species', 'origin.name', 'location.name']
+    writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+
+    writer.writeheader()
+    for row in new_character_list:
+        writer.writerow(row)
 
 
 

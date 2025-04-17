@@ -1,15 +1,33 @@
-from dotenv import load_dotenv
-from dotenv import dotenv_values
 
 import requests
 
+
 # fetch from API URL 
 
-url = "https://rickandmortyapi.com/api"
+url = "https://rickandmortyapi.com/api/character"
 response = requests.get(url)
-print(response)
-load_dotenv()
-# api_key = dotenv_values().get("API_KEY")
-# print(api_key)
+data = response.json()
+# print(response.json())
+
+#function that will reduce data to these few properties -> id, name, status, species, origin.name, and location.name
+#char = characters in this function
+def simplify(char):
+    return{
+        'id':char['id'],
+        'name':char['name'],
+        'status':char['status'],
+        'species':char['species'],
+        'origin.name':char['origin']['name'],
+        'location.name':char['location']['name']
+
+    }
+#simplify the original data list into fewer key/value pairs with 'map'
+# apply the function simplify to every item in the list data['results']
+new_character_list = map(simplify, data['results'])
+#print the flitered list
+for char in new_character_list:
+    print(char)
+
+
 
 

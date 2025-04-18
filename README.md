@@ -20,7 +20,7 @@ Use this Python application to fetch and process data from the **Rick and Morty 
 
 Enjoy!✌️
 
-## Demo
+## Demo 🎥
 
 ![demo](./images/Inscribe_Demo-ezgif.com-video-to-gif-converter.gif)
 

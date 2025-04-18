@@ -109,6 +109,10 @@ https://rickandmortyapi.com/documentation/#filter-characters
 
 https://stackoverflow.com/questions/67943578/python-and-api-output-to-csv
 
+https://stackoverflow.com/questions/16511337/correct-way-to-try-except-using-python-requests-module
+
+https://python-forum.io/thread-38083.html
+
 ## Licenese
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)

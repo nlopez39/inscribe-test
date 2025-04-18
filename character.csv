@@ -1,4 +1,4 @@
-id,name,status,species,origin.name,location.name
+Id,Name,Status,Species, Origin Location Name, Last Known Location Name
 1,Rick Sanchez,Alive,Human,Earth (C-137),Citadel of Ricks
 2,Morty Smith,Alive,Human,unknown,Citadel of Ricks
 3,Summer Smith,Alive,Human,Earth (Replacement Dimension),Earth (Replacement Dimension)

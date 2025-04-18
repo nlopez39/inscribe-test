@@ -32,7 +32,7 @@ new_character_list = map(simplify, data['results'])
 #create csv file
 
 character_csv = open('character.csv','w')
-character_csv.writelines('id,name,status,species,origin.name,location.name\n')
+character_csv.writelines('Id,Name,Status,Species, Origin Location Name, Last Known Location Name\n')
 for row in new_character_list:
      character_csv.writelines(str(row["id"]) +"," + row['name']+"," +row['status']+"," +row['species'] + ","+row['origin.name'] +","+ row['location.name']+"\n")
     

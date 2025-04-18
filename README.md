@@ -4,17 +4,6 @@ Inscribe AI Customer Engineer Exercise Part 1 - CSV Generator
 
 ![image](.//images/rick_and_mortyq.png)
 
-## Contents
-
-- [Introduction 💥](#introduction)
-- [Demo](#demo)
-- [Prerequisites 🔌](#prerequisites)
-- [Installation 💻](#installation)
-- [Run the Code 🚀](#run-the-code)
-- [Testing](#testing)
-- [Resources](#resources)
-- [License](#License)
-
 ## Introduction 💥
 
 Use this Python application to fetch and process data from the **Rick and Morty API**, and generate a CSV file containing information about characters from the show. The CSV file will include each character’s:

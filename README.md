@@ -6,7 +6,7 @@ Inscribe AI Customer Engineer Exercise Part 1 - CSV Generator
 
 ## Contents
 
-- [Introduction](#introduction)
+- [Introduction](#introduction💥)
 - [Demo](#demo)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)

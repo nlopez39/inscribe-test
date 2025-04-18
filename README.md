@@ -7,6 +7,7 @@ Inscribe AI Customer Engineer Exercise Part 1 - CSV Generator
 ## Contents
 
 - [Introduction](#introduction)
+- [Demo](#demo)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Run the Code](#run-the-code)
@@ -29,6 +30,10 @@ Use this Python application to fetch and process data from the **Rick and Morty 
 - Last Known Location Name
 
 Enjoy!✌️
+
+## Demo
+
+![demo](./images/Inscribe_Demo-ezgif.com-video-to-gif-converter.gif)
 
 ## Prerequisites 🔌
 

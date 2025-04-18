@@ -62,7 +62,9 @@ Install Python 3
 
 ## Installation
 
-1. Clone the repo
+1. Clone the repository
+
+   [Instructions on how to clone a repository from Github](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
 
 2. Create and activate a virtual environment (recommended for Homebrew Python users):
 

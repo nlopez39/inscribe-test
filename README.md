@@ -7,7 +7,7 @@ Inscribe AI Customer Engineer Exercise Part 1 - CSV Generator
 - [Introduction](#introduction)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
-- [Launch](#launch)
+- [Run the Code](#run-the-code)
 - [Resources](#resources)
 - [License](#License)
 
@@ -81,13 +81,15 @@ Install Python 3
 
    Note: Using a virtual environment is recommended for users with Homebrew-installed Python to avoid potential conflicts with system-wide packages.
 
-## Launch
+## Run the Code
 
-Run the main script using:
+1. Run the main script using:
 
-```
-python main.py
-```
+   ```
+   python main.py
+   ```
+
+2. A CSV file named `character.csv` will be generated in the project folder
 
 ## Resources
 
